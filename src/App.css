@@ -15,6 +15,12 @@
 	font-weight: 400;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand  img{
+    width: 50%;
+  }
+}
 /************ Default Css ************/
 * {
   margin: 0;
@@ -89,7 +95,7 @@ p.danger {
 /************ Navbar Css ************/
 
 .navbar-brand  img{
-  width: 60%;
+  width: 30%;
 }
 nav.navbar {
   padding: 18px 0;
@@ -104,7 +110,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 60%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -123,7 +129,7 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
-    display: inline-block;
+    display: flex;
     margin-left: 14px;
 }
 .social-icon a {
@@ -163,7 +169,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 10px 34px;
   font-size: 18px;
   margin-left: 18px;
 	position: relative;

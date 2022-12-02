@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/auto.png";
-import projImg2 from "../assets/img/bbc.jpeg";
-import projImg3 from "../assets/img/bank.jpeg";
+import projImg1 from "../assets/img/image1.png";
+import projImg2 from "../assets/img/image2.png";
+import projImg3 from "../assets/img/image3.png";
+import projImg4 from "../assets/img/image4.png";
+import projImg5 from "../assets/img/image5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,29 +12,29 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "manufacturing industries",
-      description: "Design & Development",
+      title: "social and public sectors",
+      description: "national and county government state agencies and NGOs",
       imgUrl: projImg1,
     },
     {
-      title: "Building and construction",
-      description: "Design & Development",
+      title: "professinal and education",
+      description: "private colleges and private schools",
       imgUrl: projImg2,
     },
     {
-      title: "Banking, finance & insuarance",
-      description: "Design & Development",
+      title: "manufacturing industries",
+      description: "we do all kind of manufacturing industries",
       imgUrl: projImg3,
     },
     {
-      title: "proffesional and Education",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "buildinig and construction",
+      description: "property developers,poperty manegements companies and real estate agents",
+      imgUrl: projImg4,
     },
     {
-      title: "Public and Social sectors",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "banking ,finance and insuarance",
+      description: "comercial banks ,insuarance companies and micro finance institutions",
+      imgUrl: projImg5,
     },
   ];
 

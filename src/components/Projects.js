@@ -97,7 +97,7 @@ export const Projects = () => {
                           taxation.
                         </p>
                         <h5 className="projecth5">PAYROLL</h5>
-                        <p>iling of pay as you earn for employees.</p>
+                        <p>filing of pay as you earn for employees.</p>
                         <h5 className="projecth5">
                           KEEP TRACK OF FINANCIAL STATEMENTS
                         </h5>

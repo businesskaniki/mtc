@@ -33,7 +33,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">MTC vission</span>
+                  <span className="tagline">MTC vision</span>
                   <h1>Enhance  Growth</h1>
                   <p>
                     To enhance the growth of our clients, by providing quality
